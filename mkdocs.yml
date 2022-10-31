@@ -1,13 +1,24 @@
-site_name: SSRM
-
-
+site_name: Shared Security Responsibility Model (SSRM)
+repo_url: https://github.com/trustsource/SSRM
+edit_uri: ""    # prevents the edit button to link into URL
 theme:
   name: material
   font: false # set false, to comply with data privacy (google fonts)
   #  text: Open Sans
   #  code: Courier
-  logo: /assets/TS_logo_lang.png
-  favicon: /assets/favicon.png
+  logo: assets/TS_logo_lang.png
+  favicon: assets/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    # - navigation.expand 
+    - navigatin.top
+    # - header.autohide 
+  extra_css:
+    - assets/stylesheet.css
 
 extra:
   homepage: https://www.trustsource.io
@@ -22,7 +33,30 @@ extra:
     actions:
       - accept
       - manage
-      - reject  
+      - reject
+  analytics:
+    provider: google
+    property: G-xxx
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+           Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+           Thanks for your feedback! Help us improve this page by
+           using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/trustsource
+      name: TrustSource @ Linkedin
+  #  plugins:
+#    - social
+#        cards: !ENV [CARDS, false]          
 
-extra_css:
-  - assets/stylesheet.css
+copyright: Copyright &copy; 2022 EACG GmbH
