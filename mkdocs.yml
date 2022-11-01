@@ -1,8 +1,35 @@
-site_name: Shared Security Responsibility Model (SSRM)
+
+# Project
+site_name: Shared Security Responsibility Model
+site_url: https://trustsource.github.io/SSRM
+site_description: >-
+  Provides a static site that introduces the TrustSource Guide to the shared Security Repsonsibility Model for the TrustSource Servcie.
+
+# Repository
 repo_url: https://github.com/trustsource/SSRM
 edit_uri: ""    # prevents the edit button to link into URL
+
+# Copyright
+copyright: Copyright &copy; 2022 EACG GmbH
+
+
 theme:
   name: material
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: white
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
   font: false # set false, to comply with data privacy (google fonts)
   #  text: Open Sans
   #  code: Courier
@@ -16,9 +43,11 @@ theme:
     - navigation.tabs
     # - navigation.expand 
     - navigatin.top
-    # - header.autohide 
-  extra_css:
-    - assets/stylesheet.css
+    - content.tooltips
+    # - header.autohide
+    - search.highlight
+    - search.share
+    - toc.follow
 
 extra:
   homepage: https://www.trustsource.io
@@ -34,9 +63,12 @@ extra:
       - accept
       - manage
       - reject
+  #version:
+  #  provider: mike
+  #  default: stable
   analytics:
-    provider: google
-    property: G-xxx
+    #provider: google
+    #property: G-xxx
     feedback:
       title: Was this page helpful?
       ratings:
@@ -55,8 +87,4 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/company/trustsource
       name: TrustSource @ Linkedin
-  #  plugins:
-#    - social
-#        cards: !ENV [CARDS, false]          
 
-copyright: Copyright &copy; 2022 EACG GmbH

@@ -3,12 +3,48 @@ on:
   push:
     branches:
       - main
+
+env:
+  NODE_VERSION: 14.x
+
 jobs:
+  build:
+    name: Build project
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js runtime
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Set up Node.js dependency cache
+        uses: actions/cache@v3
+        id: cache
+        with:
+          key: ${{ runner.os }}-${{ hashFiles('**/package-lock.json') }}
+          path: node_modules
+
+      - name: Set up Node.js dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm install
+
+      - name: Check project
+        run: npm run check
+
+      - name: Build project
+        run: |
+          npm run build
+          git diff --name-only
+
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v3
         with:
           python-version: 3.x
       - run: pip install mkdocs-material 
