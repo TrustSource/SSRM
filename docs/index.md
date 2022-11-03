@@ -11,7 +11,7 @@ This document outlines these two aspects and clarifies the responsibility of eac
   ![Tux, the Linux mascot](/assets/tux.png)
 
 ## Idea
-
+This is an new text
 
 ## Scope
 
