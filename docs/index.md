@@ -8,7 +8,7 @@ TrustSource helps in providing Security and Compliance for Software Applications
 However, to provide a secure solution, it is not only done with a secure application. Also the use of the application comes with a certaiin responsibility, which we call **Security in the Application**.
 This document outlines these two aspects and clarifies the responsibility of each side.
 
-  ![Tux, the Linux mascot](/assets/tux.png)
+  ![Tux, the Linux mascot](assets/tux.png)
 
 ## Idea
 
