@@ -1,4 +1,4 @@
-# Intgerity of Outbound Artifacts
+# Integrity of Outbound Artifacts
 
 ## Completeness & Assembly of Artifacts
 
