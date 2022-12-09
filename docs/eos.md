@@ -4,7 +4,7 @@ In this section we will outline our responsibilities and the measures we impleme
 
 ## Overview of our Responsibilities
 
-(List)
+TrustSource sees it as its responsibility 
 
 ## Our Responsibility Sharing
 
