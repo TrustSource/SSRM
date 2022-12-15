@@ -1,4 +1,4 @@
-# Integrity of Inbound Data
+# Data Integrity 
 
 This section addresses all sort of data that goes into the system. The first section addresses general aspects 
 
