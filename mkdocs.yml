@@ -10,7 +10,7 @@ repo_url: https://github.com/trustsource/SSRM
 edit_uri: ""    # prevents the edit button to link into URL
 
 # Copyright
-copyright: Copyright &copy; 2022 EACG GmbH
+copyright: Copyright &copy; 2022 <a href="https://www.eacg.de/editorial">EACG GmbH</a>
 
 
 theme:
