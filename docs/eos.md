@@ -70,9 +70,6 @@ We make use of Key Management Systems (KMS). Thus all  keys used within the appl
 
 We make extensive use of keys. For example will scan results, uploaded and stored for later analysis, be encrypted using company specific keys. Thus even if for some reason the protected storage would become accessible by a third party, data will remain encrypted with the key hidden in the KMS.
 
-#### 
-
-
 #### Separated Environments
 
 One of the most important security measures is the separation of our different system environments. There is one for te develeopment and testing and another one specific for production. This separation allows to make use of different keys, limit access further and completely seggregate poduction data from testing environments. Developers do not have access to our production environment. 
@@ -99,7 +96,6 @@ Depending on the character of the change, it will be possible to start deploying
 #### BCM
 
 For the unlikely event of complete region outage, we backup data into a second region (currently Ireland) and have a defined procedure on how to rebuild infrastructure within two hours from failure. This procedure is tested on an annual base (ramping up the complete infratsructure in a new datacenter). The results are logged and reviewed for further improvements and adjustments. 
-
 
 ## Our Partners
 
