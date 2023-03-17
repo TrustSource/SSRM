@@ -1,4 +1,4 @@
-# Shared Security Resoonsibility Model - Guidance for TrustSource Users
+# Shared Security Responsibility Model - Guidance for TrustSource Users
 
 The **Shared Security Responsibility Model (SSRM)** is a model to describe the distribution of responsibility. YOU, as the user of TrustSource, want to have your data processed in a secure way. We, as the provider, aim to achieve this. But we both have to work together, to succed. This SSRM Guidance has been provided, to clarify each partie's responsibilities, as well as to support YOU in understanding and coping with YOUR responsibilities.
 
