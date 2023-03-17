@@ -20,17 +20,17 @@ However, it is also in the repsonsibility of the account owner to remove access 
 
 ### Assigning Roles
 
-Every user requires one or more roles. Depending on the roles, the rights are set. A detailed overview can be found in the [TrustSource Knownledbase](https://support.trustsource.io/). It is in the responsibility of the account owner to limit the rights of each user. We recommend to review the need of roles on a regular basis.
+Every user requires one or more roles. Depending on the roles, the rights are set. A detailed overview can be found in the [TrustSource Knowledgebase](https://support.trustsource.io/). It is in the responsibility of the account owner to manage the rights for each user. We recommend to favour a restrictive approach and review the need of roles on a regular basis.
 
 ### Deleting users
 
-TrustSource keeps audit logs of all events a users initiates. These logs contain the user ID. For better readability the visualization uses the real user name for display. However, it is always possible to remove a useres name using the Right to be Forgotten (RTBF) button. This will delete the name information but keep the then nameless ID.
+TrustSource keeps audit logs of all events users initiate. These logs contain the user ID. For better readability the visualization uses the real user name for display. However, it is always possible to remove a user's name using the >Right to be Forgotten (RTBF)< button. This will delete the name information but keep the then nameless ID.
 
 Deleting the user will close the account. No more access will be possible for that user. The audit logs will keep showing the name.  
 
 ## 3rd Party Identity Provider
 
-Depending on your subscription, you may add an external Identity Provider. This could be either your corporate Active Directory, Github or Apple. The benefit of these providers is for example the support for One Time Password (OTP) authentication, but also the comfort in managing users. Given a users leaves the company, your HR will take care to remove him from the corproate directory. If you use this as Identity Provider, the user will immediately loose access to TrustSource as well. If you decide for manual user management, you will have to provide a routine - either manual or automated - to ensure the removal in TrustSource will take place in time. 
+Depending on your subscription, you may want to add an external Identity Provider. This could be either your corporate Active Directory, Github or Apple. The benefit of these providers is for example the support for One Time Password (OTP) authentication, but also more comfort in managing users. Given a user leaves the company, your HR will take care to remove him from the corproate directory. If you use this as Identity Provider, the user will immediately loose access to TrustSource as well. If you decide for manual user management, you will have to provide a routine - either manual or automated - to ensure the removal in TrustSource will take place in time. 
 
 In addition these providers may also provide an OID token containing claims concerning their roles in TrustSource. In Active Directory this typically is organized through memebership of Security Groups. Thus you would assign every user to a set of security groups, according to the roles they shall have in TrustSource ([see role mapping](https://support.trustsource.io)).
 
