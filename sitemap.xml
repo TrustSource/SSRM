@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://trustsource.github.io/SSRM/</loc>
+         <lastmod>2024-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://trustsource.github.io/SSRM/accessSecurity/</loc>
+         <lastmod>2024-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://trustsource.github.io/SSRM/artefactIntegrity/</loc>
+         <lastmod>2024-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://trustsource.github.io/SSRM/dataIntegrity/</loc>
+         <lastmod>2024-11-11</lastmod>
+    </url>
+    <url>
+         <loc>https://trustsource.github.io/SSRM/eos/</loc>
+         <lastmod>2024-11-11</lastmod>
+    </url>
+</urlset>
