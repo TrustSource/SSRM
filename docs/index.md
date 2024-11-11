@@ -57,7 +57,7 @@ You may focus on the introductions of chapters 3, 4, 5 and 6. The details you ma
 
 You should be aware of the different sources you may tap to learn about TrustSource:
 
-- Tools: TrustSource is a large aggregation of services and tools. Many of our tools are provided as opensource and can be found on [Github](!https://github.com/trustsource)
+- Tools: TrustSource is a large aggregation of services and tools. Many of our tools are provided as opensource and can be found on [Github](https://github.com/trustsource)
 - System Monitoring: at the bottom of each screen you will find a link to our public [System Monitoring](!https://status.trustsource.io)
 - System Management Notifications: in the above linked page you will be able to subscribe to a newsletter, where will announce changes and system updates. 
 - Knowledge Base: at the top right of the application there is a link to our online [Knowledge base](!https://support.trustsource.io)
@@ -70,5 +70,4 @@ You should be aware of the different sources you may tap to learn about TrustSou
 This documentation is provided under CC-BY-SA-4.0. You may clone or fork this repository and create you own Shared Responsibility Model (SSRM) based on these documents. But please make sure to remove all references to TrustSource and EACG except an attribution notice. EACG as well as TrustSource and the corresponding logos are protected Trademarks and should not be used without a written approval by any third party.
 
 This documentation may change. We will notify changes through the systems management notification mailing list.
-
 
