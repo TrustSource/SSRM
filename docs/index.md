@@ -23,7 +23,7 @@ This document is structured into six sections with differnt focus:
  3. [Access Security](/SSRM/accessSecurity/) - this describes how access security is organized, and how you will be able to achieve a maximum of access control
  4. [Data Integrity](/SSRM/dataIntegrity/) - here you get insights on our data management and will learn what you may do to ensure integrity from your side
  5. [Artefact Integrity](/SSRM/artefactIntegrity/) - this gives an overview of what is produced and what you may do to improve integrity of your data
- 6. [Handling Alerts](SSRM/handlingAlerts/) - Trustsource does not only take data. It is also producing information to act upon. You should be aware of this data an ensure activity will be taken. This chapter will help you to understand what is possible and how to arrange notifications.
+ 6. [Handling Alerts](/SSRM/handlingAlerts/) - Trustsource does not only take data. It is also producing information to act upon. You should be aware of this data an ensure activity will be taken. This chapter will help you to understand what is possible and how to arrange notifications.
 
 ## How to read the document
 
@@ -62,7 +62,7 @@ You should be aware of the different sources you may tap to learn about TrustSou
 - System Management Notifications: in the above linked page you will be able to subscribe to a newsletter, where will announce changes and system updates. 
 - Knowledge Base: at the top right of the application there is a link to our online [Knowledge base](https://support.trustsource.io)
 - FAQ: the Knowledgebase is available to everyone and contains information on compliance, establishing Compliance processes, setting up an OSPO, integrating different programming languages / CI/CD flows with TrustSource, how to handle use cases within TrustSource, etc.
-- If you are a subscribed to TrustSource you also are eligible to may write an email to our support team at [support@trustsource.io](mailto://support@trustsource.io)
+- If you are a subscribed to TrustSource you also are eligible to may write an email to our support team at [support@trustsource.io](mailto:support@trustsource.io)
 - Direct contact: You will find our contact details, at our website under [www.trustsource.io/contact](https://www.trustsource.io/contact)
 
 # License
