@@ -19,7 +19,7 @@ This document addresses the use of TrustSource in general. It will not distingui
 This document is structured into six sections with differnt focus:
 
  1. This Introduction, which guides you through the idea and reading hints
- 2. [EACG Operations Services GmbH Responsibilities](/eos.md) - here you will find information about the controls and protection we  take care of. 
+ 2. [EACG Operations Services GmbH Responsibilities](/SSRM/eos.md) - here you will find information about the controls and protection we  take care of. 
  3. [Access Security](/accessSecurity.md) - this describes how access security is organized, and how you will be able to achieve a maximum of access control
  4. [Data Integrity](/dataIntegrity.md) - here you get insights on our data management and will learn what you may do to ensure integrity from your side
  5. [Artefact Integrity](/artefactIntegrity.md) - this gives an overview of what is produced and what you may do to improve integrity of your data
