@@ -3,3 +3,9 @@ root > * {
   --md-primary-fg-color--light: #FFFFFF;
   --md-primary-fg-color--dark:  #90030C;
 }
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    display: none;
+  }
+}

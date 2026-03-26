@@ -3,7 +3,7 @@
 site_name: Shared Security Responsibility Model
 site_url: https://trustsource.github.io/SSRM
 site_description: >-
-  Provides a static site that introduces the TrustSource Guide to the Shared Security Repsonsibility Model for the TrustSource Service.
+  Provides a static site that introduces the TrustSource Guide to the Shared Security Responsibility Model for the TrustSource Service.
 
 # Repository
 repo_url: https://github.com/trustsource/SSRM
@@ -42,7 +42,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     # - navigation.expand 
-    - navigatin.top
+    - navigation.top
     - content.tooltips
     # - header.autohide
     - search.highlight
@@ -90,5 +90,15 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:support@trustsource.io
 
+nav:
+  - Introduction: index.md
+  - Access Security: accessSecurity.md
+  - Artefact Integrity: artefactIntegrity.md
+  - Data Integrity: dataIntegrity.md
+  - EOS Responsibilities: eos.md
+
+extra_css:
+  - assets/stylesheet.css
+
 extra_javascript:
-  - javascripts/feedback.js
+  - assets/feedback.js
